@@ -1,0 +1,34 @@
+@import '../root/root.scss';
+
+body{
+  font-family: 'Inter-Regular', sans-serif;
+  background-color: $color-white;
+  color: $color-grey-dark;
+}
+
+.container{
+  width: min($max-width, 100% - $padding-m*2);
+  margin-inline: auto;
+}
+
+@media (max-width: $mobile){
+  .container{
+    width: min($max-width, 100% - $padding-s*2);
+  }
+}
+
+.main-grid{
+  display: grid;
+  gap: $padding-m;
+}
+
+@media (min-width: $mobile){
+  .grid-col-span-2{
+    grid-column: span 2;
+  }
+  .main-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.6fr 1fr;
+  }
+}
+

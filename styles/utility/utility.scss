@@ -1,0 +1,130 @@
+@import '../root/root.scss';
+
+.heading-font-size-1{
+  font-size: $font-size-5;
+}
+
+.heading-font-size-2{
+  font-size: $font-size-4;
+}
+
+.heading-font-size-3{
+  font-size: $font-size-3-5;
+}
+
+.heading-font-size-4{
+  font-size: $font-size-3;
+}
+
+.heading-font-size-5{
+  font-size: $font-size-3;
+}
+
+.font-size-xs{
+  font-size: $font-size-1;
+}
+
+.font-size-s{
+  font-size: $font-size-2;
+}
+
+.font-size-m{
+  font-size: $font-size-3;
+}
+
+.font-size-l{
+  font-size: $font-size-3-5;
+}
+
+.font-size-xl{
+  font-size: $font-size-4;
+}
+
+.font-size-xxl{
+  font-size: $font-size-5;
+}
+
+.bold{
+  font-family: 'Inter-Bold', sans-serif;
+}
+
+.extra-bold{
+  font-family: 'Inter-Extra-Bold', sans-serif;
+}
+
+.color-white{
+  color: $color-white;
+}
+
+.color-blue-dark{
+  color: $color-blue-dark;
+}
+
+.color-grey-light{
+  color: $color-grey-light;
+}
+
+.color-grey-dark{
+  color: $color-grey-dark;
+}
+
+.color-orange-light{
+  color: $color-orange-light;
+}
+
+.color-orange-dark{
+  color: $color-orange-dark;
+}
+
+.background-white{
+  background-color: $color-white;
+}
+
+.background-blue-dark{
+  background-color: $color-blue-dark;
+}
+
+.background-grey-light{
+  background-color: $color-grey-light;
+}
+
+.background-grey-dark{
+  background-color: $color-grey-dark;
+}
+
+.background-orange-light{
+  background-color: $color-orange-light;
+}
+
+.background-orange-dark{
+  background-color: $color-orange-dark;
+}
+
+.a-white-orange{
+  color: $color-white;
+}
+
+.a-white-orange:hover{
+  color: $color-orange-light;
+}
+
+.a-dark-orange{
+  color: $color-blue-dark;
+}
+
+.a-dark-orange:hover{
+  color: $color-orange-dark;
+}
+
+.hidden {
+  position: absolute;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}

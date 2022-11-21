@@ -1,0 +1,37 @@
+//ROOT COLORS
+$color-white: hsl(36, 100%, 99%);
+$color-blue-dark: hsl(240, 100%, 5%);
+$color-grey-light: hsl(233, 8%, 79%);
+$color-grey-dark: hsl(236, 13%, 42%);
+$color-orange-light: hsl(35, 77%, 62%);
+$color-orange-dark: hsl(5, 85%, 63%);
+
+//ROOT FONTS
+@font-face { font-family: 'Inter-Regular'; src: url(../assets/fonts/static/Inter-Regular.ttf); }
+@font-face { font-family: 'Inter-Bold'; src: url(../assets/fonts/static/Inter-Bold.ttf); }
+@font-face { font-family: 'Inter-Extra-Bold'; src: url(../assets/fonts/static/Inter-ExtraBold.ttf); }
+//CHECK WHAT THIS MEANS:
+@font-face { font-family: 'Inter-Variable'; src: url(../assets/fonts/Inter-VariableFont_slnt,wght.ttf); }
+
+//ROOT SIZES
+$font-size-1 : 0.8rem;
+$font-size-2 : 1.0rem;
+$font-size-3 : 1.25rem;
+$font-size-3-5 : 2.0rem;
+$font-size-4 : 2.4rem;
+$font-size-4-5 : 2.7rem;
+$font-size-5 : 3.7rem;
+
+
+//ROOT WITDH & PADDING
+$max-width: 1200px;
+$padding-xs: 1rem;
+$padding-s: 1.5rem;
+$padding-m: 2rem;
+$padding-l: 2.5rem;
+$padding-xl: 3rem;
+$padding-xxl: 6.5rem;
+
+//DEVICE SIZES
+$mobile: 50em;
+$tablet: 70em;
