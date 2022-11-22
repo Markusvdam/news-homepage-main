@@ -1,10 +1,10 @@
 /* RESET AND ROOT */
-@import './reset/reset.css';
-@import './root/root.scss';
+@import './reset/';
+@import './root/';
 
 /* CUBE */
-@import './composition/composition.scss';
-@import './utility/utility.scss';
-@import './block/block.scss';
-@import './exception/exception.scss';
+@import './composition/';
+@import './utility/';
+@import './block/';
+@import './exception/';
 
