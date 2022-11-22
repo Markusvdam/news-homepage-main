@@ -13,7 +13,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 - Semantic HTML5 markup
 - CSS via SASS (SCSS)
-- CUBE styling Method [LINK](https://cube.fyi)
+- CUBE styling Method - [LINK](https://cube.fyi)
 - Mobile-first workflow (except menu)
 - Javascript for mobile menu-animation
 
