@@ -3,9 +3,9 @@
 This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
 
 # Result
-(./design/result/desktop.png)
-(./design/result/mobile.png)
-(./design/result/mobile-menu-open.png)
+![Preview1](./design/result/desktop.png)
+![Preview2](./design/result/mobile.png)
+![Preview3](./design/result/mobile-menu-open.png)
 
 ## My process
 
