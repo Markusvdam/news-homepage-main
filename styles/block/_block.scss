@@ -1,4 +1,4 @@
-@import '../root/root.scss';
+@import '../root/';
 
 
 /* ----- HEADER  &  MENU ----- */
@@ -109,7 +109,7 @@ main[menu-clicked]{
   }
 }
 
-@media (max-width: 70em){
+@media (max-width: $tablet){
   .banner-title{
     h1{
       font-size: $font-size-4-5 !important;
@@ -117,7 +117,7 @@ main[menu-clicked]{
   }
 }
 
-@media (max-width: 50em){
+@media (max-width: $mobile){
   .banner-title{
     h1{
       font-size: $font-size-4 !important;
@@ -195,7 +195,7 @@ main[menu-clicked]{
 
 .blog-item-text{
   h4, p{
-    padding-top: 10px;
+    padding-top: 0.625rem;
   }
   h4{
     font-size: $font-size-2;
@@ -207,7 +207,7 @@ main[menu-clicked]{
     .blog-item{
       .blog-item-text{
         p{
-          font-size: 14px
+          font-size: 0.875rem;
         }
       }
     }
@@ -233,10 +233,10 @@ main[menu-clicked]{
   color: $color-white;
   font-weight: bold;
   background-color: $color-orange-dark;
-  letter-spacing: 5px;
+  letter-spacing: 0.3rem;
   border: none;
-  width: 185px; 
-  height: 48px;
+  width: 11.5rem; 
+  height: 3rem;
 }
 
 .button-readmore:hover{
