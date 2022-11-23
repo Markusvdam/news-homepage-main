@@ -27,7 +27,7 @@ Not:
 - Best is to first set up your root and all your utilities. Then create your HTML and connect your utilities to the elements. In this way when you start styling, you already have the right view on you elements.
 - Some extra scss skills
 - Some figuring out how I could create the mobile menu working. Decided to use simple js and toggle classes.
-- Never automatically trust your 'live sass/scss compilator' in Code Studio 😜
+- Never automatically trust your 'live sass/scss compilator' in Visual Studio Code 😜
 
 
 ### Useful resources
