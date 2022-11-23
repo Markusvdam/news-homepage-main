@@ -423,21 +423,17 @@ main[menu-clicked] {
   gap: 1.5rem;
 }
 
-.banner-image img {
-  height: 300px;
+.banner-image picture img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 @media (min-width: 50em) {
-  .banner-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  .banner-image picture {
+    height: 100%;
+    width: 100%;
   }
-  .banner-image img {
-    flex-shrink: 0;
+  .banner-image picture img {
     min-width: 100%;
     min-height: 100%;
   }

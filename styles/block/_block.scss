@@ -134,23 +134,22 @@ main[menu-clicked]{
 }
 
 .banner-image {
-  img{
-    height: 300px;
-    object-fit: cover;
+  picture{
+    img{
+      object-fit: cover;
+    }
   }
 }
 
 @media (min-width: $mobile){
   .banner-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-
-    img{
-      flex-shrink: 0;
-      min-width: 100%;
-      min-height: 100%;
+    picture{
+      height: 100%;
+      width: 100%;
+      img{
+        min-width: 100%;
+        min-height: 100%;
+      }
     }
   }
 }
